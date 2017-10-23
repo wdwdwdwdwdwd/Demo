@@ -92,20 +92,17 @@
             android:background="@drawable/shape_login_et"
             />
     </LinearLayout>
-  <!--  <TextView
-        android:id="@+id/Login_TextView_Send"
-        android:layout_width="100dp"
-        android:layout_height="40dp"
-        android:text="登陆"
-        android:textSize="17sp"
-        android:textColor="#FFFFFF"
-        android:background="@drawable/shape_login"
-        android:gravity="center"
-        android:layout_marginTop="170dp"
-        android:layout_marginLeft="45dp"
-
-        />
--->
+--><!-- <TextView
+    android:id="@+id/Login_TextView_PhoneError"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="手机号不正确"
+    android:textSize="12sp"
+    android:textColor="#EA566C"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/et_password"
+    android:visibility="gone"
+    />-->
     <Button
         android:id="@+id/login_button"
         android:layout_width="100dp"
