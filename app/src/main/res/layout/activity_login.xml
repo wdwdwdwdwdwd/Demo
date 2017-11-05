@@ -3,23 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/login">
-    <LinearLayout
-        android:id="@+id/Login_LinearLayout_Back"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:weightSum="1">
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="11dp"
-            android:layout_marginLeft="50dp"
-            android:text="返回"
-            android:textSize="17sp"
-            android:layout_weight="7.80" />
-    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/Login_LinearLayout_username"
